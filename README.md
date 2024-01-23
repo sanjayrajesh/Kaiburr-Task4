@@ -19,7 +19,7 @@ steps:
     - name: Build with Maven
       run: mvn -B package -Dmaven.test.skip --file pom.xml
     - name: Build Docker image
-      run: docker build -t sanjayrajesh/kaiburr_repo:latest .
+      run: docker build -t task4 .
 ``` 
 
 # Screenshots
